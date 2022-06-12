@@ -1,0 +1,24 @@
+.Containerform{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.preview{
+    position: absolute;
+    width: 25%;
+    top: 50;
+    left: 40px;
+    box-shadow: 3px 3px 3px #333;
+    margin-top: 25px;
+}
+
+@media(max-width: 500px){
+    .preview{
+        position: static;
+        width: 100%;
+    }
+}

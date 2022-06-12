@@ -1,0 +1,26 @@
+.form{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+}
+  
+.form label{
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px 0px;
+}
+
+.form label input{
+  padding: 3px 5px;
+  outline: none;
+  font-size: 1.2rem;
+  border: 2px solid #121212;
+  border-radius: 5px;
+}
+
+
+
+
+

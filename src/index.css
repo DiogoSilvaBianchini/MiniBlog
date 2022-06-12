@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  overflow-x: hidden;
+}
+
+.active{
+  background-color: #121212;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+a, button{
+  border: none;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+h1{
+  margin: 0;
+}
+
+form{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input,
+textarea{
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 100px;
+  height: 32px;
+  min-height: 1em;
+  padding: 0px 5px;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #a4a4a4;
+}
+
+
+
+input::placeholder, textarea::placeholder{
+  font-size: 0.9em;
+}
+
+.btn{
+  background-color: #17a717;
+  border: 3px solid #17a717;
+  padding: 5px 25px;
+  font-size: 1rem;
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: #1d771d;
+  border: 3px solid #1d771d;
+}
+
+.btn:focus{
+  background-color: transparent;
+  border: 3px solid forestgreen;
+  color: forestgreen;
+}
+
+.btn.disabled{
+  background-color: #E4E4E4;
+  border: 3px solid #E4E4E4;
+  color: #000;
+  cursor: not-allowed;
+}
+/* Dark */
+.btn.darkBtn{
+  background-color: #121212;
+  border: 3px solid #121212;
+  color: #fff;
+}
+
+.btn.darkBtn:hover{
+  background-color: transparent;
+  color: #121212;
+}
+
+.btn.darkBtn:focus{
+  background-color: #000;
+}
+
+/* outLine */
+
+.btn.outLine{
+  background-color: transparent;
+  color: #121212;
+  border: 3px solid #121212;
+  transition: .4s;
+}
+.btn.outLine:disabled{
+  background-color: #121212;
+  color: #fff;
+}
+.btn.outLine:hover{
+  background-color: #121212;
+  color: #fff;
+}
+
+.btn.outLine:focus{
+  background-color: transparent;
+  border-radius: #121212;
+  color: #121212;
+}
+
+/* Delete */
+.btn.delete{
+  background-color: rgb(196, 28, 28);
+  border: 3px solid rgb(196, 28, 28);
+  color: #fff;
+}
+
+.btn.delete:hover{
+  background-color: rgb(141, 0, 0);
+  border: 3px solid rgb(141, 0, 0);
+}
+
+.btn.delete:focus{
+  background-color: transparent;
+  border: 3px solid rgb(141, 0, 0);
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+  padding: 0;
+}
+
+/* Error */
+
+.error{
+  background-color: #ffbdbd;
+  border: 1px solid #ff4444;
+  border-radius: 5px;
+  color: #ff4444;
+  padding: 5px 10px;
+}
+
+
+.noPost{
+  color: #acacac;
+  font-weight: bold;
+}

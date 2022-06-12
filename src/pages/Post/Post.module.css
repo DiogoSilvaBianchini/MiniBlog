@@ -1,0 +1,49 @@
+.containerPost{
+    width: 100%;
+}
+
+.containerPost h1{
+    align-self: flex-start;
+    margin: 20px 0;
+}
+
+.containerPost img{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tags{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.tags span{
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.tags p{
+    font-style: italic;
+    font-weight: 500;
+    background-color: #D0D0D0;
+    padding: 2px 5px;
+    border-radius: 5px;
+}

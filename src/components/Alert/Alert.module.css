@@ -1,0 +1,19 @@
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #EEE;
+    border: 1px solid #121212;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg{
+    border-bottom: 1px solid #c4c4c4;
+}

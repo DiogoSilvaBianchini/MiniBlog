@@ -1,0 +1,16 @@
+.App{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content:  center;
+  overflow-x: hidden;
+}
+
+.container{
+  width: 60%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+

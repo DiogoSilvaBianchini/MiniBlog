@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8em;
+}
+
+.noPost{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8em;
+}
+
+.search form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search label{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search label button{
+    margin: 0px 5px;
+}
